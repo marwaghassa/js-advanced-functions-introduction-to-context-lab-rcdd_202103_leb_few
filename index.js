@@ -49,6 +49,7 @@ let wagesEarnedOnDate = function(employee, dateSought){
         * employee.payPerHour
     return parseFloat(rawWage.toString())
 }
+<<<<<<< HEAD
 let allWagesFor = function(employee){
     let eligibleDates = employee.timeInEvents.map(function(e){
         return e.date
@@ -70,3 +71,7 @@ let calculatePayroll = function(arrayOfEmployeeRecords){
         return memo + allWagesFor(rec)
     }, 0)
 }
+=======
+
+
+>>>>>>> 4050a29c5aa523420f38dcb9dec3dc1293e71c14
